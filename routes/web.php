@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+route::get('/','home@index');
+route::post('/add','home@add');
+route::get('/get/{id}','home@get');
