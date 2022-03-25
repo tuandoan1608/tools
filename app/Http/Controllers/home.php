@@ -11,6 +11,10 @@ class home extends Controller
     {
         return view('welcome');
     }
+    public function home()
+    {
+        return view('home');
+    }
     public function add(Request $request)
     {
         

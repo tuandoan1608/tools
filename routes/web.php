@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 route::get('/','home@index');
+route::get('/home','home@home');
 route::post('/add','home@add');
 route::get('/get/{id}','home@get');
